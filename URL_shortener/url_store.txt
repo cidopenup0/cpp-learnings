@@ -1,0 +1,1 @@
+"mqnyba" "https://www.codechef.com/practice/course/projects-cpp/CPPDEVPRJ11/problems/CPPPROB64"
