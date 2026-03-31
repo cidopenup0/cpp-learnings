@@ -12,7 +12,7 @@ void load_csv(){
     std::string filepath;
     std::fstream csvFile;
     std::cout<<"\nEnter CSV file path: ";
-    std::cin>>filepath;
+    std::getline(std::cin >> std::ws, filepath);
     csvFile.open(filepath);
     if (!csvFile.is_open()) {
         std::cerr<<"\n\nError: Could not open the file : "<<filepath<<std::endl;
