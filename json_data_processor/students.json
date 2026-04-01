@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Ananya Sharma",
+    "age": 20,
+    "department": "Computer Science",
+    "year": "3rd",
+    "cgpa": 8.5,
+    "email": "ananya@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Rahul Verma",
+    "age": 21,
+    "department": "Mechanical Engineering",
+    "year": "4th",
+    "cgpa": 7.8,
+    "email": "rahul@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Priya Singh",
+    "age": 19,
+    "department": "Electrical Engineering",
+    "year": "2nd",
+    "cgpa": 8.9,
+    "email": "priya@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Vikram Patel",
+    "age": 22,
+    "department": "Civil Engineering",
+    "year": "4th",
+    "cgpa": 7.2,
+    "email": "vikram@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Sanya Gupta",
+    "age": 20,
+    "department": "Computer Science",
+    "year": "3rd",
+    "cgpa": 9.1,
+    "email": "sanya@example.com"
+  }
+]
