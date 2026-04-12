@@ -7,6 +7,7 @@
 #include<cctype>
 #include<algorithm>
 
+std::string file_name = "log.txt";
 std::vector<std::string> log_levels = {"INFO", "WARNING", "ERROR"};
 std::vector<std::vector<std::string>> log_messages = {
     {"Application started", "User logged in", "User logged off"},
@@ -15,7 +16,7 @@ std::vector<std::vector<std::string>> log_messages = {
 };
 
 bool open_file(std::fstream& file, std::ios::openmode mode = std::ios::in){
-    file.open("log.txt", mode);
+    file.open(file_name, mode);
     if(!file.is_open()){
         std::cout<<"\nCouldn't find the file log.txt in current directory\n";
         return false;
